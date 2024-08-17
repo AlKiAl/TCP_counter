@@ -1,0 +1,5 @@
+./tcp_counter test.pcap
+./tcp_counter test.pcap --srcaddr 10.0.2.15
+./tcp_counter test.pcap --srcaddr 10.0.2.15 --dstport 443
+./tcp_counter test.pcap --dstaddr 10.0.2.15 --srcport 443
+./tcp_counter test.pcap --srcaddr 10.0.2.15 --dstaddr 192.0.73.2  --srcport 50042 --dstport 443
